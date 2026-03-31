@@ -12,5 +12,6 @@ longest_word = text[0]
 for w in text:
     if len(w) > len(longest_word):
         longest_word = w
+        
 
 print("Eng uzun so'z:", longest_word)
